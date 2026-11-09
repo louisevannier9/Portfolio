@@ -1,0 +1,9 @@
+body{
+    background-color: #a9806e;
+}
+
+header{
+    .ul li{
+        float:left;
+    }
+}
