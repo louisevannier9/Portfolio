@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    .ul li{
-        float:left;
+    .container-nav{
+        border: black;
     }
 }
