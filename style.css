@@ -1,9 +1,70 @@
+:root{
+    --primary-color:#4e2808;
+    --secondary-color: #a9806e;
+    --a-color: white;
+
+}
+
 body{
-    background-color: #a9806e;
+    margin:0;
+    padding:0;
+    background-color: bisque;
+
+
+    
 }
 
 header{
-    .container-nav{
-        border: black;
+    height: 500px;
+
+    .bar-nav{
+        width: 550px;
+
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding:0;
+        overflow: hidden;
+        background-color: var(--primary-color);
+
+            li{
+                float: left;
+
+                a{
+                    display:block;
+                    color: var(--a-color);
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                
+                    &:hover{
+                        background-color: var(--secondary-color);
+
+                    }
+                }
+            }
+        }
     }
+    
+
+    
+
+    .hero-picture{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("assets/Bettyboop.jpg");
+        height: 50vh;
+        background-position: center;
+        background-repeat: repeat-x;
+        background-size: cover;
+        position:relative;
+    }
+
+    .hero-text{
+        text-align: center;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+    
 }
